@@ -20,8 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
             navigator.serviceWorker.ready.then(registration => {
                 registration.showNotification('Custom Notification', {
                     body: message,
-                    icon: 'icon.png',
-                    badge: 'icon.png'
+                    icon: '/assets/images/icon.png',
+                    badge: '/assets/images/icon.png'
                 });
             });
         }
